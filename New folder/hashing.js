@@ -19,3 +19,21 @@
 			 }
 			 return result;
  } 
+
+//First Repeating element
+// Given an integer array A of size N, find the first repeating element in it.
+// We need to find the element that occurs more than once and whose index of the first occurrence is the smallest.
+// If there is no repeating element, return -1.
+ function solve(A) {
+	    let hashMap = new Map();
+        let min =-1;
+        for(let i=A.length-1; i>=0; i--){
+            if(!hashMap.has(A[i])){
+                hashMap.set(A[i],1)
+            }
+            else {
+               min=i
+            }
+        }
+        return min===-1?-1:A[min];
+ } 
