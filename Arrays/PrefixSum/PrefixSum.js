@@ -7,3 +7,6 @@
   }
   return prefixArr;
 }
+
+
+console.log(prefixSum([1,2,3,4,5]))
