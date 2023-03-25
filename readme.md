@@ -1,1 +1,8 @@
-# May Contains wrong answers please check before proceeding
+# DSA
+-Intermediate to Advanced questions
+
+# Types
+- Array
+- String
+- Recursion
+- Tree
