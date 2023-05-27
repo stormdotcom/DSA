@@ -1,4 +1,4 @@
-//Given a sorted array  with duplicates find the first occurance of k
+//Given a sorted array  with duplicates find the first occurrence of k
 
 const binarySearch = (A, k) => {
     let N = A.length, ans = -1;
