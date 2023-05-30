@@ -1,7 +1,7 @@
 //Given a sorted array  where every number repeats twice expect 1, find the number
 
 //approach 1: do XOR of elements 
-const findUniqueElement = (A, k) => {
+const findUniqueElement = (A) => {
     let N = A.length;
     let low = 0, high = N - 1;
     while (low <= high) {
