@@ -22,4 +22,4 @@ function maxArea(A) {
     return max;
 }
 
-console.log(maxArea)
+console.log(maxArea())
