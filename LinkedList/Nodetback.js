@@ -1,15 +1,15 @@
 class Node {
-    constructor( next = null) {
-      this.next = next;
-    }
+  constructor(next = null) {
+    this.next = next;
   }
+}
 const insertNode(haed, value){
-  if(head===null){
-      head = new Node(value)
+  if (head === null) {
+    head = new Node(value)
   }
   let temp = head;
-  while(head !=== null){
-      temp = temp.next;
+  while (head !== null) {
+    temp = temp.next;
   }
   temp.next = new Node(value)
   return head
