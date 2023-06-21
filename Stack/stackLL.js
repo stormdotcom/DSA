@@ -55,20 +55,23 @@ class Stack {
     }
 }
 
+
 // Example usage:
-const stack = new Stack();
-stack.push(5);
-stack.push(10);
-stack.push(15);
+// const stack = new Stack();
+// stack.push(5);
+// stack.push(10);
+// stack.push(15);
 
-console.log(stack.peek()); // Output: 15
+// console.log(stack.peek()); // Output: 15
 
-console.log(stack.pop()); // Output: 15
-console.log(stack.pop()); // Output: 10
+// console.log(stack.pop()); // Output: 15
+// console.log(stack.pop()); // Output: 10
 
-console.log(stack.getSize()); // Output: 1
+// console.log(stack.getSize()); // Output: 1
 
-console.log(stack.isEmpty()); // Output: false
+// console.log(stack.isEmpty()); // Output: false
 
-stack.clear();
-console.log(stack.isEmpty()); // Output: true
+// stack.clear();
+// console.log(stack.isEmpty()); // Output: true
+
+export default Stack;
