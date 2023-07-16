@@ -18,7 +18,6 @@ function levelOrderTraversal(root) {
             if (node.left) {
                 queue.enqueue(node.left);
             }
-
             if (node.right) {
                 queue.enqueue(node.right);
             }
