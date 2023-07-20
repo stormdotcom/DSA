@@ -13,7 +13,7 @@ const quickSort = (A) => {
     sort(A, 0, A.length)
 }
 
-const rearrange = (A, s, e) => {  //s as pivot
+const rearrange = (A, s, e) => {  //s-> as pivot
     let l = s + 1;
     let r = e;
     while (l <= r) {
@@ -24,7 +24,7 @@ const rearrange = (A, s, e) => {  //s as pivot
             r--;
         }
         else {
-            [A[l], A[r]] = [A[r], A[l]];
+            [A[l], A[r]] = [A[r], A[l]]; // swap
             l++; r--;
         }
     }
