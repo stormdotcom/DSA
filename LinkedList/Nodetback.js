@@ -3,7 +3,8 @@ class Node {
     this.next = next;
   }
 }
-const insertNode(haed, value){
+
+const insertNode = (head, value) => {
   if (head === null) {
     head = new Node(value)
   }
