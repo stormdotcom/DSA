@@ -3,6 +3,7 @@ const binarySearch = (A, k) => {
     let low = 0, high = N - 1;
     while (low <= high) {
         let mid = Math.floor((high + low) / 2);
+        console.log({ mid, low, high })
         if (A[mid] === k) {
             return mid;
         }

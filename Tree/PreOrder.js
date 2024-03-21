@@ -16,11 +16,13 @@ const node2 = new TreeNode(2, node4, node5);
 const node3 = new TreeNode(3, node6, node7);
 const root = new TreeNode(1, node2, node3);
 
-//     1
-//    / \
-//   2   3
-//  / \ / \
-// 4  5 6  7
+//       1
+//      / \
+//     2   3
+//    / \ / \
+//   4  5 6  7
+//  /
+// 8
 
 
 function preOrderTraversal(root) {
