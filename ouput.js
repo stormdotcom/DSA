@@ -20,3 +20,5 @@ setImmediate(() => {
 
 console.log('G');
 // console.log('Node.js version:', process.version);
+
+// output: A, G, E, B, C, F, C
