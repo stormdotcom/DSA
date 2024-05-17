@@ -47,3 +47,14 @@ function compareArrayOfObjects(arr1, arr2) {
     }
     return diff;
 }
+
+
+console.log('Start');
+
+setTimeout(() => console.log('Timeout 1'), 0);
+
+setTimeout(() => console.log('Timeout 2'), 1000);
+
+setImmediate(() => console.log('Immediate'));
+
+console.log('End');
