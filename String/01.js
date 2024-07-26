@@ -39,4 +39,4 @@ let lengthOfLongestSubstring = (s) => {
 
   return longest;
 };
-console.log(lengthOfLongestSubstring("AAJAAL"));
+console.log(lengthOfLongestSubstring("AAJAAAL"));
